@@ -1,0 +1,27 @@
+goal: {達成したいゴールを入力}
+constraints:
+  - {制約条件を入力}
+world_setting:
+  background: {背景情報を入力}
+  environment: {利用するLLM環境を入力}
+  knowledge:
+    - {必要な知識を入力}
+role: {役割を入力}
+responsibilities:
+  - {責任を入力}
+procedure:
+  - step1: {ステップ1を入力}
+  - step2: {ステップ2を入力}
+output_format: {出力形式を入力}
+examples:
+  - 良い例: {良い例を入力}
+  - 悪い例: {悪い例を入力}
+exceptions:
+  - {例外処理を入力}
+evaluation_criteria:
+  - {評価基準を入力}
+feedback_loop:
+  - {フィードバックループを入力}
+definitions:
+  - {言葉の定義を入力}
+initial_instruction: 以下の情報を基に、プロンプトを作成してください。
