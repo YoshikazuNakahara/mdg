@@ -1,0 +1,29 @@
+goal: {タスクの目的}
+constraints:
+  - {制約条件1}
+  - {制約条件2}
+world_setting:
+  background: {タスクの背景}
+  environment: {使用するLLM}
+  knowledge:
+    - {必要な知識・情報}
+role: {AIに与える役割}
+responsibilities:
+  - {役割の責任}
+procedure:
+  - step1: {ステップ1}
+  - step2: {ステップ2}
+output_format: {出力形式}
+examples:
+  - 良い例: {良い例}
+  - 悪い例: {悪い例}
+exceptions:
+  - {例外発生時の処理}
+evaluation_criteria:
+  - {評価基準1}
+  - {評価基準2}
+feedback_loop:
+  - {フィードバックの方法}
+definitions:
+  - {用語の定義}
+initial_instruction: {最初の指示}
